@@ -1,0 +1,37 @@
+/* Write your CSS here */
+
+.container {
+  background-color: #93c5fd;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-cont {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  width: 50%;
+}
+.heading {
+  font-size: 30px;
+  padding-left: 30px;
+}
+.question-container {
+  display: flex;
+  flex-direction: row;
+  padding-left: 30px;
+}
+.question {
+  padding-left: 10px;
+}
+.country {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 30px;
+  font-weight: bold;
+  font-size: 25px;
+}
